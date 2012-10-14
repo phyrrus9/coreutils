@@ -1,0 +1,7 @@
+#! /bin/sh
+# This program will configure the build to make universal binaries for MAC OS 10.5+
+# a similar method can be done for linux or even windows binaries if you take the
+# time to go through this and edit all of the arch's ~phyrrus9
+./configure CC="gcc -arch i386 -arch x86_64 -arch ppc -arch ppc64" \
+                 CXX="g++ -arch i386 -arch x86_64 -arch ppc -arch ppc64" \
+                 CPP="gcc -E" CXXCPP="g++ -E"

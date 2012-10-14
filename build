@@ -1,2 +1,5 @@
 #! /bin/sh
+# This file will build the project into a temporary directory
+# currently in /coreutils. You will need to mkdir this file
+# in order to use this script.
 sudo DESTDIR=/coreutils/ make install
