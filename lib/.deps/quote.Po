@@ -1,0 +1,10 @@
+quote.o: quote.c config.h quotearg.h \
+  /usr/bin/../lib/clang/4.0/include/stddef.h quote.h
+
+config.h:
+
+quotearg.h:
+
+/usr/bin/../lib/clang/4.0/include/stddef.h:
+
+quote.h:

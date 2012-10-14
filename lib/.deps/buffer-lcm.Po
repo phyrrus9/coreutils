@@ -1,0 +1,8 @@
+buffer-lcm.o: buffer-lcm.c config.h buffer-lcm.h \
+  /usr/bin/../lib/clang/4.0/include/stddef.h
+
+config.h:
+
+buffer-lcm.h:
+
+/usr/bin/../lib/clang/4.0/include/stddef.h:
